@@ -1,4 +1,5 @@
 def featurea(name):
     name = input("Введите имя: ")
     surname = input("Введите фамилию: ")
-    return name, surname
+    third_name = input("Введите отчество: ")
+    return name, surname, third_name
